@@ -1,0 +1,6 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+"\C-h": backward-kill-word
+"\C-z": reverse-search-history
+"\C-y": forward-search-history
+

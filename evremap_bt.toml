@@ -1,0 +1,25 @@
+device_name = "AK820 MAX-1 System Multi Axis"
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_LEFT"]
+output = ["KEY_HOME"]
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_RIGHT"]
+output = ["KEY_END"]
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_LEFTSHIFT", "KEY_LEFT"]
+output = ["KEY_LEFTSHIFT", "KEY_HOME"]
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_LEFTSHIFT", "KEY_RIGHT"]
+output = ["KEY_LEFTSHIFT", "KEY_END"]
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_BACKSPACE"]
+output = ["KEY_LEFTSHIFT", "KEY_HOME", "KEY_DELETE"]
+
+[[remap]]
+input = ["KEY_LEFTALT", "KEY_DELETE"]
+output = ["KEY_LEFTSHIFT", "KEY_END", "KEY_DELETE"]
