@@ -1,10 +1,17 @@
+zoxide init fish | source
+zoxide init fish --cmd cd | source
+
 set -gx PATH $PATH /home/eshayat/.spicetify
 
 eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 set -gx PATH $HOME/.local/bin $PATH
 
-alias fishconfig "mate ~/.config/fish/config.fish"
+alias fishconfig "zed ~/.config/fish/config.fish"
+
+alias minecraft "java -jar /home/eshayat/Documents/minecraft.jar"
+
+alias mc "java -jar /home/eshayat/Documents/minecraft.jar"
 
 alias init 'git init'
 alias add 'git add .'
